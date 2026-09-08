@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halal Nikah — Kerala Muslim Matrimony</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#e8e8e8;font-family:Arial,Helvetica,sans-serif;color:#29272a}
+.page{max-width:1100px;margin:auto;background:#fff;box-shadow:0 0 30px #0002}
+header{height:72px;padding:0 48px;display:flex;align-items:center;gap:40px;background:#fff}
+.logo{font-weight:800;color:#f34b69;font-size:19px}.logo b{color:#222}
+nav{display:flex;gap:28px;flex:1}nav a{font-size:10px;font-weight:bold;color:#666;text-decoration:none}
+.actions button,.hero button,.faq-intro button{border-radius:4px;padding:9px 16px;font-size:10px;cursor:pointer}
+.login{background:white;color:#f34b69;border:1px solid #f34b69}.register{background:#f34b69;color:white;border:0}
+.hero{height:430px;background:#f34b69;position:relative;padding:75px 55px;color:white;overflow:visible}
+.hero-copy{position:relative;z-index:2}.eyebrow{font-size:11px;font-weight:bold;margin-bottom:12px}
+h1{font-family:Georgia,serif;font-size:34px;line-height:1.05;margin:0 0 15px}.hero p{font-size:11px;line-height:1.5}
+.hero .primary{background:#fff;color:#f34b69;border:0}.hero .outline{background:transparent;color:#fff;border:1px solid #fff}
+.hero-buttons{display:flex;gap:10px;margin-top:24px}
+.couple{position:absolute;right:52px;top:55px;width:310px;height:245px;border-radius:50% 50% 15px 15px;overflow:hidden}
+.couple img{width:100%;height:100%;object-fit:cover}
+.search{position:absolute;z-index:5;bottom:-28px;left:10%;width:80%;background:#fff;padding:15px;border-radius:8px;box-shadow:0 7px 20px #0002;display:flex;gap:8px;align-items:end}
+.search div{flex:1}.search label{display:block;font-size:8px;color:#888;margin-bottom:4px}.search select{width:100%;height:34px;border:1px solid #ddd;border-radius:3px;background:white;font-size:10px;padding:0 6px}.search button{height:34px;width:46px;border:0;border-radius:3px;background:#f34b69;color:white}
+section{padding:62px 55px}.kicker{text-align:center;text-transform:uppercase;color:#f34b69;font-weight:bold;font-size:11px;margin:0 0 22px}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}.feature{text-align:center}.icon{width:50px;height:50px;border-radius:50%;background:#ffd3da;color:#f34b69;margin:auto;display:grid;place-items:center;font-size:23px}.feature h3{font-size:11px;margin:12px 0 7px}.feature p{font-size:9px;color:#777;line-height:1.5;margin:0}
+.about{text-align:center;padding-top:28px}.about h2,.app h2{font-family:Georgia,serif;font-size:22px;margin:0 0 10px}.about-text{max-width:650px;margin:auto;color:#777;font-size:9px;line-height:1.7}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:28px}.stat{border:1px solid #f2cbd2;border-radius:7px;padding:18px}.stat strong{display:block;color:#f34b69;font-size:18px}.stat span{font-size:9px;color:#777}
+.app{background:#fff1f3;min-height:185px;display:flex;align-items:center;justify-content:center;gap:50px}.person{font-size:80px}.phone{font-size:75px}.app .kicker{text-align:left;margin:0 0 7px}.app h2{font-size:18px}.stores{display:flex;gap:8px}.stores button{background:#111;color:#fff;border:0;border-radius:5px;padding:8px 12px;font-size:9px}
+.faq{display:grid;grid-template-columns:1fr 1.2fr;gap:55px}.faq-intro .kicker{text-align:left}.faq-intro p{font-size:9px;color:#777;line-height:1.7}.faq-intro button{background:#f34b69;color:#fff;border:0}.faq-list{border:1px solid #f0d8dd}.faq-item{border-bottom:1px solid #f0d8dd}.faq-item:last-child{border:0}.faq-q{width:100%;background:#fff;border:0;padding:14px;display:flex;justify-content:space-between;text-align:left;font-size:10px;cursor:pointer}.answer{display:none;padding:0 14px 14px;font-size:9px;color:#777;line-height:1.6}.answer.open{display:block}
+.story{display:grid;grid-template-columns:170px 1fr;max-width:700px;margin:auto;border:1px solid #f0d8dd;border-radius:6px;overflow:hidden}.story img{width:170px;height:120px;object-fit:cover}.story-content{padding:16px}.story h3{font-family:Georgia,serif;font-size:14px;margin:0 0 8px}.story p{font-size:9px;color:#777;line-height:1.6}.stars{color:#f34b69}
+.support{background:#f34b69;color:white;padding:12px 35px;display:flex;justify-content:space-around;font-size:9px}
+footer{background:#f34b69;color:white}.footer-grid{padding:30px 55px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:35px}.footer-grid h3{font-size:11px}.footer-grid p,.footer-grid a{font-size:9px;color:#ffe8ec;line-height:1.7}.footer-grid a{display:block;text-decoration:none}.copy{text-align:center;border-top:1px solid #f66c83;padding:9px;font-size:8px}
+@media(max-width:700px){header{padding:18px 22px;height:auto;flex-wrap:wrap;gap:15px}nav{order:3;flex-basis:100%;justify-content:space-between;gap:7px}.hero{height:610px;padding:45px 25px}.couple{position:relative;right:auto;top:auto;width:240px;height:185px;margin:30px auto}.search{width:90%;left:5%;bottom:-65px;display:grid;grid-template-columns:1fr 1fr}.search div:nth-child(1),.search div:nth-child(3),.search div:nth-child(5),.search div:nth-child(7){display:none}.search button{width:100%}section{padding:55px 25px}.features{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr}.app{gap:15px;padding:30px 18px}.person,.phone{font-size:50px}.app h2{font-size:15px}.faq{grid-template-columns:1fr;gap:25px}.story{grid-template-columns:100px 1fr}.story img{width:100px;height:145px}.support{overflow:auto;justify-content:flex-start;gap:25px;white-space:nowrap}.footer-grid{grid-template-columns:1fr 1fr;padding:30px 25px}}
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <a class="logo" href="#top">HALAL <b>NIKAH</b></a>
+  <nav><a href="#why">WHY US</a><a href="#about">ABOUT US</a><a href="#success">SUCCESS STORIES</a><a href="#faq">FAQ</a></nav>
+  <div class="actions"><button class="login">Login</button> <button class="register">Register</button></div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">KERALA'S #1 MUSLIM MATRIMONY</div>
+    <h1>FIND YOUR LIFE<br>PERFECT <span>PARTNER</span></h1>
+    <p>Kerala's #1 Muslim<br>Matrimony Website</p>
+    <div class="hero-buttons"><button class="primary">Register for Free</button><button class="outline">Login</button></div>
+  </div>
+  <div class="couple"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Couple"></div>
+  <div class="search">
+    <div><label>I'm looking for</label><select><option>Woman</option><option>Man</option></select></div>
+    <div><label>Age</label><select><option>21</option><option>25</option><option>30</option></select></div>
+    <div><label>To</label><select><option>30</option><option>35</option><option>40</option></select></div>
+    <div><label>Religion</label><select><option>Muslim</option></select></div>
+    <button onclick="alert('Search feature can be connected to your backend later')">⌕</button>
+  </div>
+</section>
+
+<section id="why">
+<p class="kicker">Why Choose Us</p>
+<div class="features">
+<div class="feature"><div class="icon">✓</div><h3>Verified Profiles</h3><p>Authentic profiles reviewed for your safety.</p></div>
+<div class="feature"><div class="icon">♡</div><h3>Safe & Secure</h3><p>Your privacy and personal details stay protected.</p></div>
+<div class="feature"><div class="icon">♙</div><h3>Trusted Community</h3><p>Connect with genuine people and families.</p></div>
+<div class="feature"><div class="icon">★</div><h3>100% Muslim</h3><p>A focused platform for Muslim matrimonial matches.</p></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<p class="kicker">About Us</p><h2>Kerala's #1 Muslim Matrimony Website</h2>
+<p class="about-text">Find a meaningful connection with people who share your values, culture and faith. We make the journey to a happy marriage simple, respectful and secure.</p>
+<div class="stats"><div class="stat"><strong>1,00,000+</strong><span>Registered</span></div><div class="stat"><strong>25,000+</strong><span>Matches</span></div><div class="stat"><strong>5,000+</strong><span>Success Stories</span></div></div>
+</section>
+
+<section class="app">
+<div class="person">👩🏻</div><div><p class="kicker">Mobile App</p><h2>Download Kerala's #1 app for<br>Muslim Matrimony</h2><div class="stores"><button> App Store</button><button>▶ Google Play</button></div></div><div class="phone">📱</div>
+</section>
+
+<section class="faq" id="faq">
+<div class="faq-intro"><p class="kicker">Frequently Asked Questions</p><p>Learn more about how Halal Nikah works and get answers to common questions.</p><button>Learn More</button></div>
+<div class="faq-list">
+<div class="faq-item"><button class="faq-q">How can I register on Halal Nikah? <span>⌄</span></button><div class="answer">Create your profile, add your details and preferences, then start discovering suitable matches.</div></div>
+<div class="faq-item"><button class="faq-q">What should I keep in my matrimonial profile? <span>⌄</span></button><div class="answer">Use accurate information, a clear photo and details that help families understand your preferences.</div></div>
+<div class="faq-item"><button class="faq-q">How can I search from the matrimonial directory? <span>⌄</span></button><div class="answer">Use the search filters above to narrow profiles by age, gender and other preferences.</div></div>
+<div class="faq-item"><button class="faq-q">Can I change my profile information? <span>⌄</span></button><div class="answer">Yes. Profile details can be edited from your account after login.</div></div>
+<div class="faq-item"><button class="faq-q">How can I contact another member? <span>⌄</span></button><div class="answer">Use the contact or chat feature available on a member's profile.</div></div>
+</div>
+</section>
+
+<section id="success">
+<p class="kicker">Success Stories</p>
+<div class="story"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80" alt="Wedding couple"><div class="story-content"><h3>"Grateful to Halal Nikah for bringing us together."</h3><p>We found each other through the platform and our families connected. Thank you for helping us begin our journey together.</p><div class="stars">★★★★★</div></div></div>
+</section>
+
+<div class="support"><span>● Support Request</span><span>● Chat For Assistance</span><span>☎ Hotline 24/7</span><span>● Head office — address</span></div>
+<footer><div class="footer-grid"><div><h3>Halal Nikah</h3><p>The new way of bringing people together for meaningful relationships, with safety and respect at the heart of every connection.</p></div><div><h3>Company</h3><a href="#about">About</a><a href="#success">Success Stories</a><a href="#faq">FAQ</a><a href="#top">Contact</a></div><div><h3>Help & Support</h3><a href="#faq">Contact Us</a><a href="#faq">FAQs</a><a href="#faq">Report a problem</a><a href="#faq">Privacy Policy</a></div><div><h3>Contact</h3><p>+91 00000 00000</p><p>hello@halalnikah.com</p></div></div><div class="copy">© 2026 Halal Nikah. All rights reserved.</div></footer>
+</main>
+</div>
+<script>
+document.querySelectorAll('.faq-q').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const a=btn.nextElementSibling;
+    a.classList.toggle('open');
+  });
+});
+</script>
+</body>
+</html>
